@@ -1,0 +1,28 @@
+{
+    "title": "Gitbookの使い方",
+    "language": "ja",
+    "isbn": "",
+    "structure": {
+    },
+    "styles": {
+        "pdf": "pdf.css"
+    },
+    "plugins":[
+        "anchors"
+    ],
+    "pluginsConfig": {
+    },
+    "pdf": {
+        "toc": true,
+        "pageNumbers": true,
+        "fontSize": 12,
+        "fontFamily":"GenShinGothic",
+        "paperSize": "a4",
+        "margin": {
+            "right": 25,
+            "left": 25,
+            "top": 25,
+            "bottom": 25
+        }
+    }
+}
