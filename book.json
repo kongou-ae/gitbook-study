@@ -1,5 +1,6 @@
 {
     "title": "Gitbookの使い方",
+    "author": "aimless.jp",
     "language": "ja",
     "isbn": "",
     "structure": {
@@ -11,6 +12,7 @@
         "anchors"
     ],
     "pluginsConfig": {
+        
     },
     "pdf": {
         "toc": true,

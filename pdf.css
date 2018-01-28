@@ -550,3 +550,13 @@ body {
   border-bottom: 1px solid #eee;
   color: #aaa
 }
+
+.section.toc li .inner .page {
+  display: none;
+}
+
+.pdf-footer .author {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
