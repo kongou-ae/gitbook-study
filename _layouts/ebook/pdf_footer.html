@@ -2,7 +2,8 @@
 
 {% block body %}
 <div class="pdf-footer">
-    <spam class="author">{{ config.author }}</span>
-    <span class="footer-pages-count">{{ page.num }}</span>
+    <div class="footer-pages-left"></div>
+    <div class="footer-pages-author">{{ config.author }}</div>
+    <div class="footer-pages-count">{{ page.num }}</div>
 </div>
 {% endblock %}

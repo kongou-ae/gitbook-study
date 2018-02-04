@@ -555,8 +555,66 @@ body {
   display: none;
 }
 
-.pdf-footer .author {
+.pdf-footer .footer-pages-left {
   display: inline-block;
-  width: 100%;
+  margin:0 auto;
+  width:33%;
+}
+
+.pdf-footer .footer-pages-count {
+  display: inline-block;
+  text-align: right;
+  margin:0 auto;
+  width:33%;
+}
+
+.pdf-footer .footer-pages-author {
+  display: inline-block;
   text-align: center;
+  margin:0 auto;
+  width:33%;
+  
+}
+
+.cover {
+  text-align: center;
+  page-break-after: always;
+}
+
+.cover .cover-title {
+  margin-top: 400px;
+}
+
+.cover .cover-author {
+  margin-top: 200px;
+}
+
+.cover {
+  display: block;
+  word-wrap: break-word;
+  overflow: hidden;
+  color: #000;
+  line-height: 1.6;
+  text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%
+}
+
+@font-face {
+   font-family: 'Noto Sans CJK';
+   font-style: normal;
+   font-weight: 400;
+   src: url(https://github.com/kongou-ae/font/raw/master/NotoSansCJKjp-Regular-subset.otf) format('opentype');
+ }
+ 
+ @font-face {
+   font-family: 'Noto Sans CJK';
+   font-style: normal;
+   font-weight: 700;
+   src: url(https://github.com/kongou-ae/font/raw/master/NotoSansCJKjp-Bold-subset.otf) format('opentype');
+ } 
+
+body {
+    font-family: 'Noto Sans CJK';
 }
