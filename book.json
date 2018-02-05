@@ -9,8 +9,12 @@
         "pdf": "pdf.css"
     },
     "plugins":[
+        "image-captions"
     ],
     "pluginsConfig": {
+      "image-captions": {
+          "caption": "図_BOOK_IMAGE_NUMBER_._CAPTION_"
+      }
     },
     "pdf": {
         "toc": true,
