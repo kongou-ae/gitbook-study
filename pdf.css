@@ -630,3 +630,10 @@ body {
   max-width: 75%;
   height: auto;
 }
+
+.page .section table th {
+  background-color: #000032;
+  color: white;
+}
+
+
